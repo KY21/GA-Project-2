@@ -18,12 +18,14 @@ RMSE (/RMSLE due to the log transformation on sale price) and R2 scores (model's
 ## Recommendations
 
 Based on the chosen model's coefficients, we could glean findings in 2 aspects.
-**Location**
-🗺️ Neighbourhoods such as Edwards and South & West of Iowa State University decrease sale price by 6.97% and 4.36% (corroborates the EDA on neighbourhood). Hence, when dealing with houses in that neighbourhood, spendings has to be done more prudently.
+
+### Location
+🗺️ Neighbourhoods such as Edwards and South & West of Iowa State University decrease sale price by 6.97% and 4.36% (corroborates the EDA on neighbourhood). Hence, when dealing with houses in that neighbourhood, spendings has to be done more prudently.\
 🗺️ Houses near parks/greenbelts would result in ~11% increase in sale price.
-**Renovation works**
-🏠 Brick Face exteriors results in a 14.9% increase in sale price
-🏠 Mansard roof styles should be avoided where possible (results in a 9.86% decrease in sale price)
+
+### Renovation works
+🏠 Brick Face exteriors results in a 14.9% increase in sale price\
+🏠 Mansard roof styles should be avoided where possible (results in a 9.86% decrease in sale price)\
 🏠 Increasing the group living area by building annexes may be risky as even though a 1% increase in living area would result in 0.127% increase in sale price, further cost-benefit analysis is required to determine if there would be profits in doing so.
 
 Currently, the model is useful in picking prime locations or neighbourhoods which require more prudent planning. The next step to build on profits from renovation would require a companion analysis on labour and material costs to predict profitability of the renovations.
